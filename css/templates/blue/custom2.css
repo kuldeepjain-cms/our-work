@@ -1,0 +1,118 @@
+.app_view::before {
+  background: rgba(0, 0, 0, 0.5);
+  content: "";
+  height: 100%; z-index:1; 
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.app_view {
+  position: relative;
+}
+.firstlisearch .search .searchform_head input:focus{border:none !important;
+box-shadow:none !important;}
+
+.search_pad .search_col #search_form {
+  padding: 0 15px;
+}
+
+.search_pad .search_col #search_form  .search-lang input#location {
+	margin:0;height:72.5px;}
+	
+.search_pad .search_col .custom-select-container.col-md-2.col-sm-2.col-xs-12, .input-wrapper.col-md-2.col-sm-2.col-xs-12.search-lang {
+  margin: 0;
+}
+
+.search_pad .search_col #search_form .custom.dropdown.small {
+  padding: 28px 10px 28px 11px !important;
+  text-align: left;
+  text-shadow: none;
+}
+
+.search_pad .search_col #search_form #submit_location {
+  margin: 15px 0 0;
+}
+
+.search_pad .search_col .checkout_date_wrapper label {
+  float: left;
+  padding: 28px 0 28px 8px;
+}
+	
+.search_pad .search_col #search_form .checkout_date_wrapper .input-wrapper.search-lang input {
+  padding: 28px 0 28px 8px;
+  width: auto;
+}
+
+.search_pad .search_col #search_form .checkout_date_wrapper{
+  margin: 0 !important;
+}
+
+.search_pad .search_col #search_form #checkinWrapper.input-wrapper.search-lang {
+  width: 100%;
+}
+
+.search_pad .search_col #search_form .custom-select-container.col-md-2.col-sm-2.col-xs-12,
+.search_pad .search_col #search_form .checkout_date_wrapper.col-md-3.col-sm-3.col-xs-12,
+.search_pad .search_col #search_form .input-wrapper.col-md-2.col-sm-2.col-xs-12.search-lang {
+  border-left: none;
+}
+
+.search_pad .search_col #search_form .custom-select-container::before, 
+.search_pad .search_col #search_form .checkout_date_wrapper::before,
+.search_pad .search_col #search_form .input-wrapper.col-md-3 col-sm-3.col-xs-12::before{
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 19px;
+  width: 1px;
+  z-index: 1;
+}
+
+.daterangepicker.dropdown-menu.ltr.show-calendar.openscenter {
+  margin-top: 1px;
+}
+form#search_form1 button {
+    background: none;
+    border: none;
+    box-shadow: inherit;
+    padding: 0 10px 0 0;
+}
+#header .searchbox{padding-left:7px;}
+
+.search_col_mob{
+	display:none;}
+	
+.search_col_mob #search_form #submit_location {
+    color: #fff;
+    float: right;
+    font-family: "Montserrat"!important;
+    font-size: 13.3px;
+    font-weight: 200;
+    height: 46px;
+    margin: 0;
+    width: 134px;
+	background: #4a4a4a;
+	border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 transparent;line-height: 15px;padding: 13px 11px 13px 6px !important;vertical-align: middle;
+}
+
+@media only screen and (max-width:798px){
+	.browse-all {
+  margin-top: 14px;
+}
+.feature-area .section-top {
+  padding: 0 30px;
+}
+	}
+
+@media only screen and (max-width:767px){
+	#view_help {
+  padding-right: 27px;
+}
+	
+	}

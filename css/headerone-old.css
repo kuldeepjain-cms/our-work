@@ -1,0 +1,227 @@
+.labels {
+    font-size: 10px;
+    font-weight: normal;
+    margin: -43px -18px auto !important;
+    text-align: center;
+    /*width: 41px;*/
+	width: auto;
+    /*background-image: url(../images/map_icons/marker_new-gray.png);*/
+    /*height: 54px;*/
+	height: auto;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    display: inline-block !important;
+    /*padding-top: 10px;*/
+    padding-top: 20px;
+	background: #ffffff;
+	padding: 10px 14px !important;
+}
+
+.labels:hover {
+	/*background-image: url(../images/map_icons/marker_new-orng.png);*/
+	background: #00a500;
+	opacity:1 !important;
+	color: #ffffff !important;
+}
+
+.labels div:parent { display:none; }
+/*.gmnoprint,
+.gmnoprint img {
+    display: none !important;
+}*/
+
+.inbox_icon {
+    position: relative;
+}
+
+.inbox_count {
+    position: absolute;
+    top: 11px;
+    left: 31px;
+    /*right: 2px;
+	display: inline-block;*/
+    min-width: 9px;
+    padding: 1px 4px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFF;
+    border: 1px solid #FF5A5F;
+    background: none repeat scroll 0% 0% #FF5A5F;
+}
+
+#amenities_entire.center_entire {
+    padding-bottom: 104px!important;
+}
+
+#listing_entire.center_entire {
+    padding: 40px 40px 100px!important;
+}
+
+.myentire {
+    padding-bottom: 120px !important;
+}
+
+#listing_entire.center_entire {
+    height: 468px;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    background: rgb(255, 255, 255)!important;
+    color: #EB3C44 !important;
+    text-decoration: none!important;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2)!important;
+    border: none !important;
+    border-radius: 4px!important;
+}
+
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+    background-color: rgb(0, 176, 255)!important;
+    outline: 0px none;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2)!important;
+    color: rgb(255, 255, 255)!important;
+    text-decoration: none!important;
+}
+
+.ui-menu .ui-menu-item a {
+    font-weight: normal!important;
+    margin: -1.2px -1.8px 0px -1.8px !important;
+    padding: 12px!important;
+    font-size: 1.2em!important;
+    display: block!important;
+    clear: both!important;
+    line-height: 18px!important;
+    color: rgb(57, 60, 61)!important;
+    white-space: nowrap!important;
+    border-bottom: 1px solid rgb(238, 238, 238)!important;
+    border-radius: 0px!important;
+}
+
+.ui-menu li:first-child a {
+    border-top-width: 0px!important;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-radius: 4px!important;
+}
+
+.pac-item-query {
+    color: #eb3f44;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pac-item {
+    color: #eb3f44;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.pac-icon {
+    width: 0px;
+}
+
+.pac-container {
+    /*border: black;*/
+}
+
+.Box_Head bookhead h2 {
+    text-align: left;
+}
+
+.dashed_table .label {
+    /*width:132px !important;*/
+}
+
+.container_bg {
+    text-align: left;
+}
+
+.dashed_table .data .inner {
+    /*    margin: -43px 0 0 125px;*/
+}
+
+.bookhead > h2 {
+    text-align: left !important;
+}
+
+#property_details #hosting_details p {
+    padding: 4px 0 -8px;
+}
+
+#hosting_details > p {
+    display: block;
+    position: relative;
+    right: 5%;
+}
+
+#property_details .main_photo {
+    border: 1px solid #CFCFCF;
+    display: block;
+    float: left;
+    height: 140px;
+    margin-right: 21px;
+    padding: 2px;
+    width: 160px !important;
+}
+
+#currency_drop {
+    background-color: transparent;
+    /*-webkit-appearance: none;*/
+    -moz-appearance: none;
+    background-image: url("images/down_arrow1.png");
+    background-position: right 9px center;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    /*width:127px;*/
+}
+
+#currency > select {
+    height: 32px;
+    margin-top: 9px;
+    margin-left: 0px !important;
+    width: 111px;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.neighborhood_home .rslides li{
+    height: 600px;
+}
+.neighborhood_home .rslides li > img{
+    height: auto !important;
+}
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
